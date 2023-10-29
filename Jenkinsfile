@@ -10,14 +10,14 @@ pipeline
         echo 'track'
       }
     }
-    stage 'bulid1'
+    stage ('bulid1')
     {
       steps
       {
         echo 'track1'
       }
     }
-    stage 'bulid2'
+    stage ('bulid2')
     {
       steps
       {
