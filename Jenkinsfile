@@ -3,25 +3,25 @@ pipeline
   agent any 
   stages
   {
-    stage('bulid')
+    stage ('bulid')
     {
       step
       {
-        echo('track')
+        echo ('track')
       }
     }
-    stage('bulid1')
+    stage ('bulid1')
     {
       step
       {
-        echo('track1')
+        echo ('track1')
       }
     }
-    stage('bulid2')
+    stage ('bulid2')
     {
       step
       {
-        echo('track2')
+        echo ('track2')
       }
     }
   }
