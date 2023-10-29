@@ -5,23 +5,23 @@ pipeline
   {
     stage ('bulid')
     {
-      step
+      steps
       {
-        echo ('track')
+        echo 'track'
       }
     }
-    stage ('bulid1')
+    stage 'bulid1'
     {
-      step
+      steps
       {
-        echo ('track1')
+        echo 'track1'
       }
     }
-    stage ('bulid2')
+    stage 'bulid2'
     {
-      step
+      steps
       {
-        echo ('track2')
+        echo 'track2'
       }
     }
   }
